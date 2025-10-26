@@ -24,7 +24,7 @@ const http = require('http');
 const https = require('https');
 const { URL } = require('url');
 
-const MASTER_URL = process.env.MASTER_URL || 'ws://127.0.0.1:8080'; // 启动时用 export MASTER_URL=你的地址 node worker-node.js
+const MASTER_URL = process.env.MASTER_URL || 'ws://202.6.204.169:8080'; // 启动时用 export MASTER_URL=你的地址 node worker-node.js
 const REPORT_INTERVAL = 1000;
 let ws = null;
 let isAttacking = false;
