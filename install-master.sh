@@ -2,8 +2,6 @@
 # 一键安装分布式压测 Master 脚本
 
 set -e
-export LANG="zh_CN.UTF-8"
-export LC_ALL="zh_CN.UTF-8"
 
 echo "========== 分布式压力测试 Master 安装 =========="
 
