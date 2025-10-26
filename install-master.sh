@@ -27,7 +27,7 @@ cat > $MASTER_JS <<'EOF'
 const WebSocket = require('ws');
 const http = require('http');
 const PORT = 8080;
-const AUTH_TOKEN = 'your-secret-token-change-this'; // !!!请修改!!!
+const AUTH_TOKEN = '!Ux4E@)shf*9rDKh:,j!0L5}^!6,*Y'; // !!!请修改!!!
 
 const workers = new Map();
 const clients = new Map();
